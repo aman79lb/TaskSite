@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Collect Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body >
+
+
+<div>
+    <div>
+        <div class="container">
+            <form action="/" method="get" onsubmit="return false;" class="form">  <!-- this is action and method  set like this it wil show data in browser-->
+                <h2>DATA FORM</h2>
+    
+                <input type="text" name="" class="box" placeholder="Enter your Name" style=" font-size: 17px;">
+                <input type="text" name="" class="box" placeholder="Enter your Age">
+               
+                    
+                  <div class="vega">
+                    <label for="cars"   > Chose your Country :  </label>
+                    <select name="countries">
+                       
+                        <optgroup label="Europe Country">
+                        <option value="NL">🇳🇱&emsp;Netherlands</option>
+                        <option value="DE">🇩🇪&emsp;Germany</option>
+                        <option value="FR">🇫🇷&emsp;France</option>
+                        <option value="ES">🇪🇸&emsp;Spain</option>
+                    </optgroup>
+
+                        <optgroup label="Asian Country">
+                            <option value="IN">🇮🇳&emsp;India</option>
+                            <option value="CN">🇨🇳&emsp;China</option>
+                            <option value="KR">🇰🇷&emsp;South Korea</option>
+                            <option value="volvo">🇳🇱&emsp;China</option>
+                            <option value="volvo">🇳🇱&emsp;Nepal</option>
+                           
+                          </optgroup>
+                         
+                            
+                          
+                    </select>
+                  <!--   
+                    <select name="cars" id="cars" style="width: 110px; 
+                    height: 20px;" >
+                        
+                        
+                      <optgroup label="Asian Country">
+                        <option value="volvo">India</option>
+                        <option value="saab">Japan</option>
+                        <option value="volvo">Sount Korea</option>
+                        <option value="volvo">China</option>
+                        <option value="volvo">Nepal</option>
+                        <option value="volvo">Bangladesh</option>
+                      </optgroup>
+                      <optgroup label="Europe Country">
+                        <option value="mercedes">Germany</option>
+                        <option value="audi">Spain</option>
+                      </optgroup>
+                    </select>
+
+                    -->
+
+                  </div>
+
+                  <div class="vega">
+                    <label for="cars"  > Choose your currency :  </label>
+                    <select name="currency">
+                        <option value="EUR">🇪🇺&emsp;€&emsp;EUR&emsp;💶</option>
+                        <option value="GBP">🇬🇧&emsp;£&emsp;GBP&emsp;💷</option>
+                        <option value="USD">🇺🇸&emsp;$&emsp;USD&emsp;💵</option>
+                        <option value="YEN">🇯🇵&emsp;¥&emsp;YEN&emsp;💴</option>
+                    </select>                    
+
+                  </div>
+                
+                
+
+                <div  class="box">
+                    <legend  >Please select your Gender:</legend>
+                    <br>
+                  <input type="radio" id="contactChoice1" name="contact" value="email" />
+                  <label for="contactChoice1">Mail</label>
+            
+                  <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                  <label for="contactChoice2">Female</label>
+            
+                  <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                  <label for="contactChoice3">No value preffred</label>
+                </div>
+                
+                <input type="email" name="email" class="box" placeholder="Enter Email">
+                <input type="password" name="password" class="box" placeholder="Enter Password">
+
+                
+                
+               
+                <input type="submit" value="SIGN IN" id="submit" onclick="redirectToPage()">
+                <a href="kodak.html" style="  font-size: 19px;">
+
+                <a href="index.html">Forget Password ?</a>
+            </form>
+    
+            <div class="side">
+                         <img src="img5.jpg" alt="">
+            </div>
+        </div>
+    
+    
+    </div>
+       
+</div>
+
+
+    <!--
+
+
+
+         <div class="container">
+        <form action="" class="form">
+
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form group">
+                <input type="email" name="email" placeholder="Enter your Email">
+            </div>
+            <div class="form group">
+                <input type="password" name="password" placeholder="Enter your Password.">
+            </div>
+            <div class="form group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+
+            <div class="form group">
+            
+         
+         <label for="cars">Choose a car:</label>
+         <select name="cars" id="cars">
+           <optgroup label="Swedish Cars">
+             <option value="volvo">Volvo</option>
+             <option value="saab">Saab</option>
+           </optgroup>
+           <optgroup label="German Cars">
+             <option value="mercedes">Mercedes</option>
+             <option value="audi">Audi</option>
+           </optgroup>
+         </select>
+            </div>
+            <button class="btn">Submit</button>
+
+<input type="submit" value="SIGN IN" id="submit">
+
+
+        </form>
+    </div>
+
+
+    -->
+
+  
+
+</body>
+<script>
+  function redirectToPage() {
+      // Redirect to the desired page
+      window.location.href = "kodak.html";
+  }
+</script>
+
+</html>
